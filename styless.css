@@ -1,0 +1,23 @@
+td {
+    border: 2px solid, black;
+    margin-bottom: 20px;
+}
+
+table {
+    color: #080103;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+caption {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.red{
+background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
