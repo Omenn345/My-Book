@@ -1,0 +1,18 @@
+header {
+    background-color: aqua;
+}
+
+footer {
+    background-color: rgb(224, 142, 83);
+}
+
+section {
+    color: cornflowerblue;
+}
+
+figure {
+    color: darkgoldenrod;
+}
+nav{
+    color: rgb(105, 84, 84);
+}
