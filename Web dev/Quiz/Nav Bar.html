@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website's Nav Bar</title>
+    <style>
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        .buy {
+            background-color: rgb(255, 255, 255);
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 20px;
+            position: relative;
+            left: 200px;
+        }
+
+        .english {
+            border: none;
+        }
+
+        li {
+            padding: 30px;
+            /* border: 1px solid black; */
+            cursor: pointer;
+
+        }
+
+        img {
+            position: relative;
+            right: 100px;
+        }
+
+        li:hover{
+            border: 1px dotted rgb(92,197,197);
+            background-color: rgb(92, 197, 197);
+            /* width: 100px; */
+            height: 20px;
+            border-radius: 16px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <img src="Background-2.jpg" width="200px" height="90px">
+            <li>Products</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+            <li>Our Company</li>
+            <li class="buy"><b>BUY NOW</b></li>
+            <li class="buy english">English</li>
+        </ul>
+
+    </nav>
+</body>
+
+</html>
