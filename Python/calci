@@ -1,0 +1,35 @@
+#x = input("x = ")# x = int(input(" x = "))
+#y = input("y = ")#same
+
+#z = int(x) + int(y)
+#a = int(x)
+#b = int(y)
+
+#z = a + b 
+#print(z)
+#print( int(x) + (int(y)))
+
+#a = float(input("x = "))
+#b = float(input("y = "))
+
+#z = round(a+b)
+
+#print(f"{z:,}")
+ 
+#z = round (a/b, 2)
+#print(z)
+
+def main():
+    x= int(input("whats a x = "))
+    print("cubed no is= ", sq(x))
+
+def sq(n):# returns the value of function sq 
+    return pow(n, 3)# 3rd power
+
+main()
+
+
+
+
+    
+
