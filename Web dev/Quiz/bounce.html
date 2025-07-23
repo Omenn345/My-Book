@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Bounce</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        .container {
+            background-color: rgb(76, 77, 76);
+            width: 1200px;
+            height: 500px;
+        }
+
+        .ball {
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            background-color: floralwhite;
+            position: relative;
+            display: flex;
+            left:0px;
+            top: 400px;
+
+            animation: BounceX 3s linear  infinite alternate ,
+                       BounceY 1s ease-out infinite alternate;
+        }
+
+        @keyframes BounceX {
+            from{
+                left: 0%;
+            }
+            to{
+                left: 95%;
+            }
+            
+        }
+
+        @keyframes BounceY {
+            from{
+                top: 85%;
+            }
+            to{
+                top: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+            <div class="ball">
+
+            </div>
+
+    </div>
+</body>
+
+</html>
