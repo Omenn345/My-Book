@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img {
+            border-radius: 15px;
+            position: relative;
+            left: 559px;
+            top: -596px;
+        }
+        img:hover{
+            transform: rotate(-10deg);
+        }
+
+        .box1 {
+            position: relative;
+            left: 550px;
+            width: 340px;
+            height: 600px;
+            background-color: antiquewhite;
+            border-radius: 15px;
+        }
+        .nature{
+            position: relative;
+            left: 565px;
+            top:-590px;
+            border: 1px solid rgb(153, 151, 151);
+            text-decoration: rgb(153, 151 ,151);
+            display: inline;
+            padding: 2px;
+            border-radius: 15px;
+            font-family:monospace;
+        }
+        .lake{
+            position: relative;
+            font-family: monospace;
+            left: 575px;
+            top:-590px;
+            border: 1px solid rgb(153, 151, 151);
+            text-decoration: rgb(153, 151 ,151);
+            display: inline;
+            padding: 2px;
+            border-radius: 15px;
+        }
+        .text{
+           position: relative;
+            font-family: monospace;
+            left: 575px;
+            top:-590px;
+
+        }
+        h5{
+            border: 2px solid antiquewhite;
+            width: 310px;
+            height: 128px;
+        }
+
+        .read{
+            position: relative;
+            padding: 3px;
+            font-family: monospace;
+            left: 669px;
+            top:-590px;
+            display: inline;
+            border: 1px solid lightgray;
+            border-radius: 12px;
+            background-color: rgb(146, 145, 145);
+            color: rgb(120, 236, 207);
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(106, 109, 114);">
+    <div>
+        <div class="box1"></div>
+        <img src="danish-ali-upeWuXE_bhM-unsplash.jpg" width="322px" height="300px" class="img">
+    </div>
+    <div class="nature">Nature</div>
+    <div class="lake">lake</div>
+    <div class="text">
+        <h1>Hi There</h1>
+        <h5>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laudantium eaque blanditiis veritatis nihil ipsa sequi. Et labore voluptatem perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, odit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, totam.
+        </h5>
+    </div>
+    <div class="read"><b>Read More</b></div>
+</body>
+
+</html>
